@@ -47,11 +47,11 @@ $(document).ready(function(){
 	//xPosition - Horizontal position of the element
 	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-	$('#intro').parallax("50%", 0.2);
-	$('.logo').parallax("50%", 0.1);
-	$('#about').parallax("50%", 0.2);
-	$('#products').parallax("50%", 0.2);
-	$('#contact').parallax("50%", 0.2);
+	$('#intro').parallax("50%", 0.1);
+	$('.logo').parallax("50%", 0.08);
+	$('#about').parallax("50%", 0.1);
+	$('#products').parallax("50%", 0.1);
+	$('#contact').parallax("50%", 0.1);
 
 	// HOVERDIR
 	$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
@@ -74,7 +74,7 @@ $(document).ready(function(){
 	    	<div class="story-text">
 	    		<div class="know-more-fb">
 	            	<a href="https://www.facebook.com/pages/Maderasmil/581605758589920">
-	            		<h1 class="text">Conocer más en Facebook</h1>
+	            		<h2 class="text">Conocer más en facebook</h2>
 	            	</a>
 	            </div>
 	        </div>
@@ -84,7 +84,7 @@ $(document).ready(function(){
 	<section id="about">
 		<div class="story">
 	    	<div class="story-text">
-	        	<h1>About</h1>
+	        	<h1 class="story-header">Acerca</h1>
 	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vel, quidem, ipsum incidunt repudiandae numquam iure praesentium expedita maxime facilis repellendus rerum quam placeat neque voluptas eum cum. Incidunt, nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, at velit laboriosam quis perferendis quasi vero iure quibusdam cumque deleniti! Maiores, eveniet debitis quod sint dicta aliquam voluptates sequi at!</p>
 	            <!-- HOVER DIRECTION -->
 				<ul id="da-thumbs" class="da-thumbs">
@@ -136,7 +136,7 @@ $(document).ready(function(){
 							<div><span>App Preview by Ryan Deshler</span></div>
 						</a>
 					</li>
-					<li>
+					<!-- <li>
 						<a href="http://dribbble.com/shots/501695-Cornwall-Map">
 							<img src="images/9.jpg" />
 							<div><span>Cornwall Map by Katharina Maria Zimmermann</span></div>
@@ -159,7 +159,7 @@ $(document).ready(function(){
 							<img src="images/12.jpg" />
 							<div><span>Seahorse by Trevor Basset</span></div>
 						</a>
-					</li>
+					</li> -->
 				</ul>
 	        </div>
 	    </div> <!--.story-->
@@ -168,7 +168,7 @@ $(document).ready(function(){
 	<section id="products">
 		<div class="story">
 	    	<div class="story-text">
-	        	<h1>Products</h1>
+	        	<h1 class="story-header">Productos</h1>
 	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vel, quidem, ipsum incidunt repudiandae numquam iure praesentium expedita maxime facilis repellendus rerum quam placeat neque voluptas eum cum. Incidunt, nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, at velit laboriosam quis perferendis quasi vero iure quibusdam cumque deleniti! Maiores, eveniet debitis quod sint dicta aliquam voluptates sequi at!</p>
 	        </div>
 	    </div> <!--.story-->
@@ -177,7 +177,7 @@ $(document).ready(function(){
 	<section id="contact">
 		<div class="story">
 			<div class="story-text">
-	        	<h1>Contact</h1>
+	        	<h1 class="story-header">Contacto</h1>
 	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vel, quidem, ipsum incidunt repudiandae numquam iure praesentium expedita maxime facilis repellendus rerum quam placeat neque voluptas eum cum. Incidunt, nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, at velit laboriosam quis perferendis quasi vero iure quibusdam cumque deleniti! Maiores, eveniet debitis quod sint dicta aliquam voluptates sequi at!</p>
 	        </div><!-- .story -->
 		</div><!-- contact -->

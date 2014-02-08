@@ -15,6 +15,9 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 body{
 	margin: 0;
 	padding: 0;
+	background: white;
+	background-image: url("../images/body-background.png");
+	font-size: 16px;
 }
 
 a{
@@ -28,9 +31,9 @@ p{
 
 p, ul{
 	font-family:"Proxima Nova Light", 'Helvetica Neue', Arial, Helvetica, sans-serif;
-	font-size-adjust:0.488;
-	font-weight:200;
+	font-weight:300;
 	font-style:normal;
+	font-size: 1.2em; 
 }
 
 img{
@@ -39,16 +42,16 @@ img{
 
 h1{
 	font-family:"Museo 900", Verdana, serif;
-	font-size-adjust:0.40;
 	font-weight:700;
 	font-style:normal;
+	font-size: 2.2em;
 }
 
 h2{
 	font-family:"Beau Sans Pro Book", Verdana, sans-serif;
-	font-size-adjust:0.531;
 	font-weight:500;
 	font-style:normal;
+	font-size: 1.6em;
 }
 
 /*NAVBAR*/
@@ -138,7 +141,8 @@ h2{
 
 .story-text{
 	margin: 0 auto;
-	max-width: 80%;
+	max-width: 70%;
+	color: white;
 }
 
 /*INTRO*/
@@ -161,9 +165,10 @@ h2{
 }
 
 .know-more-fb{
+	opacity: 0.95;
 	border-radius: 8px;
-	-webkit-box-shadow: 8px 8px 5px #3a5070;
-	box-shadow: 8px 8px 5px #3a5070;
+	/*-webkit-box-shadow: 8px 8px 5px #3a5070;
+	box-shadow: 8px 8px 5px #3a5070;*/
 	margin: 450px auto 0px;
 	position: relative;
 	width: 350px;
@@ -180,12 +185,13 @@ h2{
 	padding: 15px 30px 0px;
 	height: 80px;
 	color: white;
+	font-weight: 700;
 }
 
 .know-more-fb:HOVER{
 	background-color: #3B75B0;
-	-webkit-box-shadow: 8px 8px 5px #3b6090;
-	box-shadow: 8px 8px 5px #3b6090;
+	/*-webkit-box-shadow: 8px 8px 5px #3b6090;
+	box-shadow: 8px 8px 5px #3b6090;*/
 }
 
 .know-more-fb .facebook-logo{
@@ -195,14 +201,13 @@ h2{
 
 /*ABOUT*/
 #about{
-	background: url(../images/Simple-Brown-Wood-Wallpaper.jpg) 50% 0 no-repeat fixed;
-	color: white;
 	height: 1300px;
 	padding: 50px 0 0 0;
 }
 
 /*PRODUCTS*/
 #products{
+	background: url(../images/Simple-Brown-Wood-Wallpaper.jpg) 50% 0 no-repeat fixed;
 	height: 1000px;
 	padding: 50px 0 0 0;
 }
@@ -211,5 +216,4 @@ h2{
 #contact{
 	height: 1000px;
 	padding: 50px 0 0 0;
-	background-color: beige;
 }
