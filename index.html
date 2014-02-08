@@ -3,6 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>MaderasMil</title>
+<meta name="description" content="MaderasMil es un carpintería que se dedica a realizar cortes y muebles a medida."/>
 <link href="css/style.css" rel="stylesheet" type="text/css" />
 <link href="css/hoverdir.css" rel="stylesheet" type="text/css">
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
@@ -48,9 +49,9 @@ $(document).ready(function(){
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 	$('#intro').parallax("50%", 0.2);
 	$('.logo').parallax("50%", 0.1);
-	$('#about').parallax("50%", 0.2);
-	$('#products').parallax("50%", 0.2);
-	$('#contact').parallax("50%", 0.2);
+	// $('#about').parallax("50%", 0.2);
+	// $('#products').parallax("50%", 0.2);
+	// $('#contact').parallax("50%", 0.2);
 
 	// HOVERDIR
 	$(' #da-thumbs > li ').each( function() { $(this).hoverdir(); } );
@@ -60,11 +61,11 @@ $(document).ready(function(){
 
 <body>
 	<ul id="nav">
-		<li class="header"><div class="title">Menu</div><div class="rotate">★</div></li>
-		<li><a href="#intro" class="active"><div><div class="title">Home</div><span class="circle"></span></div></a></li>
-	    <li><a href="#about"><div><div class="title">About</div><span class="circle"></span></div></a></li>
-   	    <li><a href="#products"><div><div class="title">Products</div><span class="circle"></span></div></a></li>
-   	    <li><a href="#contact"><div><div class="title">Contact</div><span class="circle"></span></div></a></li>
+		<li class="header"><div class="title">Menu</div><div id="#menu_toggle" class="rotate">★</div></li>
+		<li><a href="#intro" class="active"><div><div class="title">Inicio</div><span class="circle"></span></div></a></li>
+	    <li><a href="#about"><div><div class="title">Acerca</div><span class="circle"></span></div></a></li>
+   	    <li><a href="#products"><div><div class="title">Productos</div><span class="circle"></span></div></a></li>
+   	    <li><a href="#contact"><div><div class="title">Contacto</div><span class="circle"></span></div></a></li>
 	</ul>
 	
 	<section id="intro">

@@ -15,7 +15,6 @@ License: http://creativecommons.org/licenses/by-sa/3.0/ (Attribution Share Alike
 body{
 	margin: 0;
 	padding: 0;
-	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(rgb(113,86,33)), to(rgb(254,205,45)));
 }
 
 a{
@@ -52,6 +51,7 @@ h2{
 	font-style:normal;
 }
 
+/*NAVBAR*/
 #nav{
 	background-color: rgba(254,205,45,0.9);
 	border-radius: 8px;
@@ -68,12 +68,14 @@ h2{
 }
 
 #nav li{
-	padding: 5px;
+	padding: 10px;
+	font-size: 1.3em;
 	text-align: right;
 	position: relative;
 }
 
 #nav .header{
+	font-size: 1.5em;
 	border-bottom: 1px white solid;
 	cursor: default;
 }
@@ -90,23 +92,23 @@ h2{
 	background-color: black;
 }
 
+#nav li .circle{
+	width: 20px;
+	height: 20px;
+	background-color: white;
+	border-radius: 10px;
+	display: inline-block;
+}
+
 .rotate{
 	display: inline-block;
-    -webkit-animation:spin 1s linear infinite;
-    -moz-animation:spin 1s linear infinite;
-    animation:spin 1s linear infinite;
+    -webkit-animation:spin 1.5s linear infinite;
+    -moz-animation:spin 1.5s linear infinite;
+    animation:spin 1.5s linear infinite;
 }
 @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
 @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
 @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
-
-#nav li .circle{
-	width: 15px;
-	height: 15px;
-	background-color: white;
-	border-radius: 8px;
-	display: inline-block;
-}
 
 #nav li .title{
 	float: left;
@@ -127,7 +129,7 @@ h2{
 .story-text{
 	margin: 0 auto;
 	max-width: 80%;
-	z-index: 100;
+	/*z-index: 100;*/
 }
 
 /*INTRO*/
@@ -184,7 +186,7 @@ h2{
 
 /*ABOUT*/
 #about{
-	background: url(../images/thirdBG.jpg) 50% 0 no-repeat fixed;
+	background: url(../images/Simple-Brown-Wood-Wallpaper.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1300px;
 	padding: 50px 0 0 0;
