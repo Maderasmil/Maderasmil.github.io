@@ -10,48 +10,84 @@
 <script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-	$('#nav').localScroll(800);
+	var $nav_bar = $('#nav');
+	// GENERAL
+	$nav_bar.localScroll(800);
+
+	// Add HASH to URI
+	// $(document).bind('scroll',function(e){
+	//     $('section').each(function(){
+	//         if ( $(this).offset().top < window.pageYOffset + 10
+	// 			//begins before top
+	// 	        && $(this).offset().top + $(this).height() > window.pageYOffset + 10
+	// 			//but ends in visible area
+	// 			//+ 10 allows you to change hash before it hits the top border
+	//         ) { window.location.hash = $(this).attr('id'); }
+	//     });
+	// });
 	
+	// PARALLAX
 	//.parallax(xPosition, speedFactor, outerHeight) options:
 	//xPosition - Horizontal position of the element
 	//inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
 	//outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
 	$('#intro').parallax("50%", 0.2);
 	$('.logo').parallax("50%", 0.1);
-	$('#third').parallax("50%", 0.3);
-
+	$('#about').parallax("50%", 0.2);
+	$('#products').parallax("50%", 0.2);
+	$('#contact').parallax("50%", 0.2);
 })
 </script>
 </head>
 
 <body>
 	<ul id="nav">
-		<li><a href="#intro"><div class="title">Home</div><img src="images/dot.png" alt="Link" /></a></li>
-	    <li><a href="#about"><div class="title">About</div><img src="images/dot.png" alt="Link" /></a></li>
+		<li><div class="title">Menu</div><div class="rotate">★</div></li>
+		<li><a href="#intro"><div><div class="title">Home</div><span class="circle"></span></div></a></li>
+	    <li><a href="#about"><div><div class="title">About</div><span class="circle"></span></div></a></li>
+   	    <li><a href="#products"><div><div class="title">Products</div><span class="circle"></span></div></a></li>
+   	    <li><a href="#contact"><div><div class="title">Contact</div><span class="circle"></span></div></a></li>
 	</ul>
 	
-	<div id="intro">
+	<section id="intro">
 		<div class="story">
 			<div class="logo"></div>
 	    	<div class="story-text">
 	    		<div class="know-more-fb">
 	            	<a href="https://www.facebook.com/pages/Maderasmil/581605758589920">
-	            		<!-- <img src="images/facebook.png" class="facebook-logo"> -->
-	            		<h1>Conocer más en Facebook.</h1>
+	            		<h1 class="text">Conocer más en Facebook</h1>
 	            	</a>
 	            </div>
 	        </div>
 	    </div> <!--.story-->
-	</div> <!--#intro-->
+	</section> <!--#intro-->
 	
-	<div id="about">
+	<section id="about">
 		<div class="story">
 	    	<div class="story-text">
 	        	<h1>About</h1>
 	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vel, quidem, ipsum incidunt repudiandae numquam iure praesentium expedita maxime facilis repellendus rerum quam placeat neque voluptas eum cum. Incidunt, nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, at velit laboriosam quis perferendis quasi vero iure quibusdam cumque deleniti! Maiores, eveniet debitis quod sint dicta aliquam voluptates sequi at!</p>
 	        </div>
 	    </div> <!--.story-->
-	</div> <!--#third-->
+	</section> <!--#about-->
+
+	<section id="products">
+		<div class="story">
+	    	<div class="story-text">
+	        	<h1>Products</h1>
+	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vel, quidem, ipsum incidunt repudiandae numquam iure praesentium expedita maxime facilis repellendus rerum quam placeat neque voluptas eum cum. Incidunt, nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, at velit laboriosam quis perferendis quasi vero iure quibusdam cumque deleniti! Maiores, eveniet debitis quod sint dicta aliquam voluptates sequi at!</p>
+	        </div>
+	    </div> <!--.story-->
+	</section> <!--#products-->
 	
+	<section id="contact">
+		<div class="story">
+			<div class="story-text">
+	        	<h1>Contact</h1>
+	            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vel, quidem, ipsum incidunt repudiandae numquam iure praesentium expedita maxime facilis repellendus rerum quam placeat neque voluptas eum cum. Incidunt, nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, at velit laboriosam quis perferendis quasi vero iure quibusdam cumque deleniti! Maiores, eveniet debitis quod sint dicta aliquam voluptates sequi at!</p>
+	        </div><!-- .story -->
+		</div><!-- contact -->
+	</section>
+
 </body>
 </html>
