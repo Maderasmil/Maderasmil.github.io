@@ -73,11 +73,20 @@ h2{
 	position: relative;
 }
 
-#nav li:hover a{
-	color: black;
+#nav .header{
+	border-bottom: 1px white solid;
+	cursor: default;
 }
 
-#nav li:hover .circle{
+#nav li:hover a{
+	color: black;
+} #nav li:hover .circle {
+	background-color: black;
+}
+
+#nav li .active{
+	color: black;
+} #nav li .active .circle{
 	background-color: black;
 }
 
@@ -178,18 +187,18 @@ h2{
 	background: url(../images/thirdBG.jpg) 50% 0 no-repeat fixed;
 	color: white;
 	height: 1300px;
-	padding: 100px 0 0 0;
+	padding: 50px 0 0 0;
 }
 
 /*PRODUCTS*/
 #products{
 	height: 1000px;
-	padding: 100px 0 0 0;
+	padding: 50px 0 0 0;
 }
 
 /*CONTACT*/
 #contact{
-	height: 500px;
-	padding: 100px 0 0 0;
+	height: 1000px;
+	padding: 50px 0 0 0;
 	background-color: white;
 }
