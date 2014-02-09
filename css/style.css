@@ -1,6 +1,11 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+	font-family: 'KaushanScriptRegular';
+	src: url('fonts/KaushanScript-Regular.otf') format('opentype'), url('fonts/kaushanscript-regular.ttf') format('truetype');
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -29,10 +34,10 @@ img{
 }
 
 h1{
-	font-family:"Museo 900", Verdana, serif;
+	font-family:'KaushanScriptRegular', Verdana, serif;
 	font-weight:700;
 	font-style:normal;
-	font-size: 2.2em;
+	font-size: 2.4em;
 }
 
 h2{
@@ -233,4 +238,13 @@ footer .logo{
 	border: 3px #e0e0e0 solid;
 	background-color: rgba(0,0,0,0.8);
 	color: white;
+}
+
+footer .author{
+	font-family:'KaushanScriptRegular';
+	font-size: 1.4em;
+	color: #ffffff;
+}
+footer .author:hover{
+	color: #AA1111;
 }
