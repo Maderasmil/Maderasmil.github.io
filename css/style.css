@@ -55,6 +55,7 @@ h2{
 	list-style: none;
 	position: fixed;
 	right: 20px;
+	/*left: 20px;*/
 	z-index: 100;
 	box-shadow: 4px 4px 3px rgb(113,86,33);
 }
@@ -173,7 +174,7 @@ h2{
 	box-shadow: 8px 8px 5px #3a5070;*/
 	margin: 450px auto 0px;
 	position: relative;
-	width: 350px;
+	width: 300px;
 	background-color: #3b5998;
 	color: white;
 	-webkit-transition: all .2s ease-in-out;
@@ -205,7 +206,7 @@ h2{
 #about{
 	height: 1000px;
 	padding: 50px 0 0 0;
-	background-color: rgba(254,205,45,0.4)
+	background-color: rgba(255, 170, 78, 0.4);
 }
 
 /*PRODUCTS*/
