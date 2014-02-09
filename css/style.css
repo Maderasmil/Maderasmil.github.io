@@ -212,10 +212,9 @@ h2{
 
 /*FOOTER*/
 footer{
-	height: 400px;
-	background-color: #f0f0f0;
+	height: 240px;
+	background-color: #e0e0e0;
 	display: block;
-	padding: 15px 0;
 	border-top: 3px rgba(0,0,0,0.7) solid;
 }
 
@@ -224,10 +223,11 @@ footer .wrapper{
 }
 
 footer .logo{
-	height: 90px;
-	width: 70px;
+	height: 120px;
+	width: 120px;
 	margin: 0 auto;
 	border-radius: 5px;
-	background-color: rgb(254,205,45);
+	border: 3px rgb(254,205,45) solid;
+	background-color: #A0A0A0;
 	color: white;
 }
