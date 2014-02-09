@@ -6,7 +6,7 @@ body{
 	padding: 0;
 	background: white;
 	background-image: url("../images/body-background.jpg");
-	font-size: 16px;
+	font-size: 15px;
 }
 
 a{
@@ -131,6 +131,9 @@ h2{
 .story-text{
 	margin: 0 auto;
 	max-width: 70%;
+	background-color: rgba(0,0,0,0.6);
+	padding: 10px;
+	border-radius: 10px;
 	color: white;
 }
 
@@ -203,6 +206,28 @@ h2{
 
 /*CONTACT*/
 #contact{
-	height: 1000px;
+	height: 600px;
 	padding: 50px 0 0 0;
+}
+
+/*FOOTER*/
+footer{
+	height: 400px;
+	background-color: #f0f0f0;
+	display: block;
+	padding: 15px 0;
+	border-top: 3px rgba(0,0,0,0.7) solid;
+}
+
+footer .wrapper{
+	margin: -60px 0 24px 0;
+}
+
+footer .logo{
+	height: 90px;
+	width: 70px;
+	margin: 0 auto;
+	border-radius: 5px;
+	background-color: rgb(254,205,45);
+	color: white;
 }
