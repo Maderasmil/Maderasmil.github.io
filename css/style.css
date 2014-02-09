@@ -65,11 +65,14 @@ h2{
 	text-align: right;
 	position: relative;
 }
+
 #nav li a{
 	color: white;
 }
 
 #nav .header{
+	padding: 8px 1px 0px;
+	margin-bottom: 4px;
 	font-size: 1.4em;
 	border-bottom: 2px white solid;
 	cursor: default;
@@ -202,6 +205,7 @@ h2{
 #about{
 	height: 1000px;
 	padding: 50px 0 0 0;
+	background-color: rgba(254,205,45,0.4)
 }
 
 /*PRODUCTS*/
@@ -220,7 +224,7 @@ h2{
 /*FOOTER*/
 footer{
 	height: 240px;
-	background-color: rgba(254,205,45,0.94);
+	background-color: rgba(254,205,45,0.9);
 	display: block;
 	border-top: 3px #e0e0e0 solid;
 	text-align: center;
@@ -233,7 +237,7 @@ footer .wrapper{
 footer .logo{
 	height: 120px;
 	width: 120px;
-	margin: 0 auto 15px;
+	margin: 0 auto 20px;
 	border-radius: 8px;
 	border: 3px #e0e0e0 solid;
 	background-color: rgba(0,0,0,0.8);
