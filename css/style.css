@@ -248,3 +248,7 @@ footer .author{
 footer .author:hover{
 	color: #AA1111;
 }
+
+footer .author-contact{
+	padding-left: 5px;
+}
