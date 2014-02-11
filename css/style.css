@@ -162,7 +162,7 @@ section{
 /*NAVBAR*/
 #nav{
 	background-color: rgba(254,205,45,0.86);
-	border-radius: .4em;
+	border-radius: 10%;
 	padding: .2em;
 	list-style: none;
 	position: fixed;
@@ -215,7 +215,7 @@ section{
 	width: 1.1em;
 	height: 1.1em;
 	background-color: white;
-	border-radius: 0.6em;
+	border-radius: 50%;
 	display: inline-block;
 	-webkit-transition: background-color 200ms ease-in-out;
 	-moz-transition: background-color 200ms ease-in-out;
@@ -268,23 +268,25 @@ section{
 	max-width: 70%;
 	background-color: rgba(0,0,0,0.6);
 	padding: 0.5em;
-	border-radius: 0.6em;
+	border-radius: 10%;
 	color: white;
 }
 
 /*INTRO*/
 #intro{
 	background: url(../images/wood.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
 	color: white;
-	height: 1300px;
+	height: 60em;
 	margin: 0 auto;
 	padding: 0;
 	overflow: hidden;
 }
 
 #intro .logo-background{
-	background: url(../images/MaderasMil-logo.png) 50% 0 no-repeat fixed;
-	height: 1300px;
+	background: url(../images/MaderasMil-logo.png) 50% 4em no-repeat fixed;
+	background-size: contain;
+	height: 60em;
 	width: 100%;
 	margin: 0 auto;
 	padding: 0;
@@ -299,14 +301,13 @@ section{
 
 .know-more-fb{
 	opacity: 0.96;
-	border-radius: 0.6em;
+	border-radius: 10%;
 	/*-webkit-box-shadow: 8px 8px 5px #3a5070;
 	box-shadow: 8px 8px 5px #3a5070;*/
-	margin: 3em auto 0;
+	margin: 28% auto 0;
 	position: relative;
-	width: 15em;
+	width: 14em;
 	background-color: #3b5998;
-	padding: 1em 2em;
 	-webkit-transition: all .2s ease-in-out;
 	-moz-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
@@ -315,9 +316,10 @@ section{
 }
 
 .know-more-fb .text{
+	padding: 1em 1.5em;
 	font-weight: 700;
+	font-size: 1.1em;
 	color: white;
-	margin: 0;
 }
 
 .know-more-fb:HOVER{
@@ -326,10 +328,10 @@ section{
 	box-shadow: 8px 8px 5px #3b6090;*/
 }
 
-.know-more-fb .facebook-logo{
+/*.know-more-fb .facebook-logo{
 	height: 3em;
 	width: auto;
-}
+} */
 
 /*ABOUT*/
 #about{
@@ -341,6 +343,7 @@ section{
 /*PRODUCTS*/
 #products{
 	background: url(../images/Simple-Brown-Wood-Wallpaper.jpg) 50% 0 no-repeat fixed;
+	background-size: cover;
 	height: 1000px;
 	padding: 3em 0 0 0;
 }
@@ -368,7 +371,7 @@ footer .logo{
 	height: auto;
 	width: 7em;
 	margin: 0 auto 1em;
-	border-radius: .5em;
+	border-radius: 50%;
 	border: .15em #e0e0e0 solid;
 	background-color: rgba(0,0,0,0.8);
 	color: white;
